@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="FONT_NAME"
-	FONT_URL=
-	FONT_NAME_ITALIC="FONT_NAME-Italic"
-	FONT_URL_ITALIC=
+	FONT_NAME="JetBrainsMono"
+	FONT_URL=https://github.com/JetBrains/JetBrainsMono/raw/refs/heads/master/fonts/variable/JetBrainsMono%5Bwght%5D.ttf
+	FONT_NAME_ITALIC="JetBrainsMono-Italic"
+	FONT_URL_ITALIC=https://github.com/JetBrains/JetBrainsMono/raw/refs/heads/master/fonts/variable/JetBrainsMono-Italic%5Bwght%5D.ttf
 }
 
 monospace_font() {
-	FONT_NAME="FONT_NAME-Mono"
-	FONT_URL=
+	FONT_NAME="JetBrainsMono-Mono"
+	FONT_URL=https://github.com/JetBrains/JetBrainsMono/raw/refs/heads/master/fonts/variable/JetBrainsMono%5Bwght%5D.ttf
 }
 download_file() {
 	STATUS = 0
