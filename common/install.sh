@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="FONT_NAME"
-	FONT_URL=
-	FONT_NAME_ITALIC="FONT_NAME-Italic"
-	FONT_URL_ITALIC=
+	FONT_NAME="NotoSans"
+	FONT_URL=https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSans/full/variable-ttf/NotoSans%5Bwdth%2Cwght%5D.ttf
+	FONT_NAME_ITALIC="NotoSans-Italic"
+	FONT_URL_ITALIC=https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSans/full/variable-ttf/NotoSans-Italic%5Bwdth%2Cwght%5D.ttf
 }
 
 monospace_font() {
-	FONT_NAME="FONT_NAME-Mono"
-	FONT_URL=
+	FONT_NAME="NotoSans-Mono"
+	FONT_URL=https://github.com/notofonts/notofonts.github.io/raw/main/fonts/NotoSansMono/unhinted/variable-ttf/NotoSansMono%5Bwdth%2Cwght%5D.ttf
 }
 download_file() {
 	STATUS = 0
@@ -128,7 +128,7 @@ if chooseport 30; then
 	download_file $FONT_NAME $FONT_URL
 	check_status
 	install_mono_font
-	ui_print "  Monospace font Replaced"
+	ui_print "  Monospace font replaced"
 else
 	ui_print "  Monospace font not replaced"
 fi
