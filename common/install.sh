@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="FONT_NAME"
-	FONT_URL=
-	FONT_NAME_ITALIC="FONT_NAME-Italic"
-	FONT_URL_ITALIC=
+	FONT_NAME="OpenSans"
+	FONT_URL=https://github.com/googlefonts/opensans/raw/main/fonts/noto-set/variable/OpenSans%5Bwdth%2Cwght%5D.ttf
+	FONT_NAME_ITALIC="OpenSans-Italic"
+	FONT_URL_ITALIC=https://github.com/googlefonts/opensans/raw/main/fonts/noto-set/variable/OpenSans-Italic%5Bwdth%2Cwght%5D.ttf
 }
 
 monospace_font() {
-	FONT_NAME="FONT_NAME-Mono"
-	FONT_URL=
+	FONT_NAME="OpenSans-Mono"
+	FONT_URL=https://github.com/googlefonts/opensans/raw/main/fonts/noto-set/variable/OpenSans%5Bwdth%2Cwght%5D.ttf
 }
 download_file() {
 	STATUS = 0
