@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="FONT_NAME"
-	FONT_URL=
-	FONT_NAME_ITALIC="FONT_NAME-Italic"
-	FONT_URL_ITALIC=
+	FONT_NAME="MapleMono"
+	FONT_URL=https://github.com/subframe7536/maple-font/raw/refs/heads/variable/source/MapleMono%5Bwght%5D-VF.ttf
+	FONT_NAME_ITALIC="MapleMono-Italic"
+	FONT_URL_ITALIC=https://github.com/subframe7536/maple-font/raw/refs/heads/variable/source/MapleMono-Italic%5Bwght%5D-VF.ttf
 }
 
 monospace_font() {
-	FONT_NAME="FONT_NAME-Mono"
-	FONT_URL=
+	FONT_NAME="MapleMono-Mono"
+	FONT_URL=https://github.com/subframe7536/maple-font/raw/refs/heads/variable/source/MapleMono%5Bwght%5D-VF.ttf
 }
 download_file() {
 	STATUS = 0
