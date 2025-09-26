@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="FONT_NAME"
-	FONT_URL=
-	FONT_NAME_ITALIC="FONT_NAME-Italic"
-	FONT_URL_ITALIC=
+	FONT_NAME="AkinsonHyperlegible"
+	FONT_URL=https://github.com/googlefonts/atkinson-hyperlegible-next/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleNext%5Bwght%5D.ttf
+	FONT_NAME_ITALIC="AkinsonHyperlegible-Italic"
+	FONT_URL_ITALIC=https://github.com/googlefonts/atkinson-hyperlegible-next/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf
 }
 
 monospace_font() {
-	FONT_NAME="FONT_NAME-Mono"
-	FONT_URL=
+	FONT_NAME="AkinsonHyperlegible-Mono"
+	FONT_URL=https://github.com/googlefonts/atkinson-hyperlegible-next-mono/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleMono%5Bwght%5D.ttf
 }
 download_file() {
 	STATUS = 0
