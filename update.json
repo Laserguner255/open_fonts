@@ -1,6 +1,5 @@
 {
-  "version": "v3.1.1",
-  "versionCode": 119,
-  "zipUrl": "https://github.com/Magisk-Modules-Alt-Repo/open_fonts/releases/download/v3.1.1/open-fonts.zip",
+  "version": "v1",
+  "versionCode": 1,
   "changelog": "https://raw.githubusercontent.com/Magisk-Modules-Alt-Repo/open_fonts/master/CHANGELOG.md"
 }
