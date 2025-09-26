@@ -6,15 +6,15 @@ SKIP_INSTALLATION=0
 NEXT_SELECTION=1
 
 system_font() {
-	FONT_NAME="AkinsonHyperlegible"
-	FONT_URL=https://github.com/googlefonts/atkinson-hyperlegible-next/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleNext%5Bwght%5D.ttf
-	FONT_NAME_ITALIC="AkinsonHyperlegible-Italic"
-	FONT_URL_ITALIC=https://github.com/googlefonts/atkinson-hyperlegible-next/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleNext-Italic%5Bwght%5D.ttf
+	FONT_NAME="Figtree"
+	FONT_URL=https://github.com/erikdkennedy/figtree/raw/refs/heads/master/fonts/variable/Figtree%5Bwght%5D.ttf
+	FONT_NAME_ITALIC="Figtree-Italic"
+	FONT_URL_ITALIC=https://github.com/erikdkennedy/figtree/raw/refs/heads/master/fonts/variable/Figtree-Italic%5Bwght%5D.ttf
 }
 
 monospace_font() {
-	FONT_NAME="AkinsonHyperlegible-Mono"
-	FONT_URL=https://github.com/googlefonts/atkinson-hyperlegible-next-mono/raw/refs/heads/main/fonts/variable/AtkinsonHyperlegibleMono%5Bwght%5D.ttf
+	FONT_NAME="Figtree-Mono"
+	FONT_URL=https://github.com/erikdkennedy/figtree/raw/refs/heads/master/fonts/variable/Figtree%5Bwght%5D.ttf
 }
 download_file() {
 	STATUS = 0
@@ -128,7 +128,7 @@ if chooseport 30; then
 	download_file $FONT_NAME $FONT_URL
 	check_status
 	install_mono_font
-	ui_print "  Monospace font Replaced"
+	ui_print "  Monospace font replaced"
 else
 	ui_print "  Monospace font not replaced"
 fi
