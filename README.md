@@ -2,7 +2,7 @@
 Download the font(s) of your liking from the latest release and install the zip file in magisk and follow the volume button prompts to install either as the system font, monospace font or both.
 
 ## Building
-Download the git branch for your font of choice and add all files accept README.md to a zip file, Thats it!
+Download the git branch for your font of choice and add all files except README.md to a zip file, Thats it!
  
  ## DISCLAIMER
 
